@@ -1,0 +1,7 @@
+$colorMap:(
+    light:#443a3a,
+);
+
+@function color($key){
+    @return map-get($colorMap,$key)
+}
